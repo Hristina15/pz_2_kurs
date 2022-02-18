@@ -15,6 +15,10 @@ namespace pz_2_kurs
             Console.WriteLine(tra2.GetInfo());
             Console.WriteLine(tra3.GetInfo());
             Console.WriteLine(tra4.GetInfo());
+
+            AudioBook aud = new AudioBook("Христина", "Юля", "Христяша+Юляша", "2022", TypeEnum.Aac, 60, "48000");
+
+            Console.WriteLine(aud.GetInfo());
         }
     }
     public enum TypeEnum
